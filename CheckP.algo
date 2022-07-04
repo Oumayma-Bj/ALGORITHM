@@ -1,0 +1,32 @@
+ALGORITHM sentence
+
+VAR
+N_V,N_W,L : INTEGER:=0;
+i,n:INTEGER;
+S : CHAR;
+
+//N_V is the number of vowels
+//N_W is the number of words
+//L is the length of the sentence
+//S is the sentence
+//i is the 
+
+BEGIN
+    REPEAT 
+        Read (S)
+    Until  ((VAR(length(S))='.')  
+
+    n:=Length(s)-1; 
+    
+    FOR i FROM 1 TO n step DO
+        IF (i:=' ')
+        THAN
+           N_W=N_W+1;
+        ELSE IF (i:=[a,e,u,i,o])  
+        THAN
+           N_V=N_V+1;
+        END IF
+    END FOR
+
+    WRITE ('Your sentence contains:',%N_V,' Vowel(s), ',%N_W,' Word(s), and its length is',%L);       
+END
